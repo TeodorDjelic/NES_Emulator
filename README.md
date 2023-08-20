@@ -1,5 +1,7 @@
 # NES EMULATOR
 
+***Made for Windows operating system***
+
 ### Author: Teodor Djelic
 
 ---
