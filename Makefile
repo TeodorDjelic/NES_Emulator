@@ -24,7 +24,7 @@ DEPFLAGS=-MP -MD
 BASEFLAGS=-Wall -Wextra -g $(foreach D,$(INCDIRS),-I$(D)) $(OPT) $(DEPFLAGS)
 
 CFLAGS=$(BASEFLAGS)
-CPPFLAGS=$(BASEFLAGS)
+CPPFLAGS= -std=c++11 $(BASEFLAGS)
 
 ### TODO:
 # CFILES and CPPFILES need to recursively find .c and .cpp respectively in subdirectories

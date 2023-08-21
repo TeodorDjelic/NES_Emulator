@@ -2,7 +2,7 @@
 
 ***Made for Windows operating system***
 
-### Author: Teodor Djelic
+### Author: Teodor Đelić
 
 ---
 
