@@ -5,8 +5,8 @@
 
 class MemoryInterface{
 public:
-    virtual byte read(word address) = 0;
-    virtual void write(word address, byte data) = 0;
+    virtual byte load(word address) = 0;
+    virtual void store(word address, byte data) = 0;
 protected:
 private:
 };

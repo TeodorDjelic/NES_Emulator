@@ -30,6 +30,17 @@ private:
     word PC;
 
     std::shared_ptr<MemoryInterface> memory;
+
+    word loadWord(word address);
+    void storeWord(word address, word data);
+
+    word loadNMIVector();
+    word loadResetVector();
+    word loadIRQBRKVector();
+
+    void setNMIVector(word address);
+    void setResetVector(word address);
+    void setIRQBRKVector(word address);
 };
 
 #endif
